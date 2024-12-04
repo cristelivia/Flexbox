@@ -1,0 +1,109 @@
+
+.containerprincipal{
+    display: flex;
+    height: 670px;
+    border: 1px solid rgb(20, 20, 20);
+}
+
+
+.menu{
+    width: 25%;
+    min-height: 101vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    min-height: 101vh;
+    background-color: rgb(187, 185, 185);
+    align-items: center;
+    border-left: 0.5px solid rgb(104, 104, 104);
+    
+}
+
+.contenido-item{
+    text-align: center;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(104, 104, 104);
+    height: 70px;
+    min-height: 70px;
+}
+
+.usuario{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.imagen1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.estado{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4px;
+    gap: 2px;}
+
+.estado strong{
+    color: black;
+    font-size: 1.1 rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.estado span{
+    color: rgb(114, 114, 114);
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    gap:20px;
+}
+.boton{
+    background-color: rgb(150, 82, 189);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin:20px 50px;
+
+}
+.texto1{
+    text-decoration: none;
+    color: white;
+}
+
+.chat{
+    display:flex;
+    justify-content: start;
+    align-content: center;
+    border-top: 0.5px solid black;
+}
+
+.imagen2{
+    width: 200px;
+    height: 200px;
+}
+
+
